@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Undangan Digital">
+    <title>Undangan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+
+        .divider {
+            width: 100px;
+            height: 2px;
+            background: #667eea;
+            margin: 20px auto;
+        }
+
+        .content {
+            color: #333;
+            line-height: 1.8;
+            margin: 30px 0;
+        }
+
+        .event-details {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+
+        .event-details p {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+
+        .event-details strong {
+            color: #667eea;
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #666;
+            font-style: italic;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Undangan</h1>
+        <div class="divider"></div>
+        
+        <div class="content">
+            <p>Dengan memohon rahmat dan ridho Allah SWT,</p>
+            <p>kami mengundang Bapak/Ibu/Saudara/i untuk hadir pada acara kami</p>
+        </div>
+
+        <div class="event-details">
+            <p><strong>Hari & Tanggal:</strong> [Hari], [Tanggal] [Bulan] [Tahun]</p>
+            <p><strong>Waktu:</strong> [Jam] - Selesai</p>
+            <p><strong>Tempat:</strong> [Lokasi Acara]</p>
+        </div>
+
+        <div class="content">
+            <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila</p>
+            <p>Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu.</p>
+        </div>
+
+        <div class="footer">
+            <p>Atas kehadiran dan doa restunya, kami ucapkan terima kasih.</p>
+        </div>
+    </div>
+</body>
+</html>
